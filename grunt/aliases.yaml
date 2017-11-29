@@ -1,0 +1,15 @@
+default:
+  - 'clean'
+  - 'run_build'
+  - 'connect:main'
+  - 'watch:main'
+
+
+run_build:
+  - 'copy:copy_html'
+  - 'copy:copy_js'
+  
+
+  # - 'compile_copy_css'
+
+
