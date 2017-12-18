@@ -1,0 +1,35 @@
+{
+  "name": "grunt-sandbox",
+  "version": "1.0.0",
+  "description": "For maintaining state of small experiments and prototyping",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Delvach/grunt-sandbox.git"
+  },
+  "author": "bdelvacchio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Delvach/grunt-sandbox/issues"
+  },
+  "homepage": "https://github.com/Delvach/grunt-sandbox#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "d3": "^4.12.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^7.0.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jquery": "^3.2.1",
+    "load-grunt-config": "^0.19.2",
+    "mkdir": "0.0.2",
+    "underscore": "^1.8.3"
+  }
+}
